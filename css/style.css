@@ -1,0 +1,85 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+/* *,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+} */
+/* --------------- */
+h1{
+	color: rgb(179, 37, 155);
+}
+.green_text{
+	color: rgb(62, 211, 62);
+}
+h2{
+	color: rgb(51, 10, 59);
+}
+#candy{
+	color: cadetblue;
+}
+li{
+	color: rgb(158, 96, 85);
+}
+.list{
+	color: rgb(175, 175, 56);
+}
+#pinklist{
+	color: pink;
+}
+p.redtext{
+	color: red;
+}
+p.text.redtext{
+	color: rgb(153, 2, 2);
+}
+/* вложенность = приоритет */
+.contain .maincontain{
+	color: blue;
+}
+/* запись не приоритетная  */
+.maincontain{
+	color: coral;
+} 
+/* все Li с классом bluetext но к одному пункту добавлен инлайн =приоритет */
+.bluetext{
+	color: blue;
+}
+/* обращение ко всем ли влоденным в yellow_li */
+.yellow_li li{
+	color: yellow;
+}
+/* обращение к первому уровню вложенности */
+.violet_text > li {
+	color: violet;
+}
+
+
+
+
+
+
+
